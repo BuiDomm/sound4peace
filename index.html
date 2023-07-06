@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./asset/css/reset.css" />
+        <link rel="stylesheet" href="./asset/css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <script
+            src="https://kit.fontawesome.com/01370afe46.js"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet"
+        />
+        <title>Sound4Peace</title>
+    </head>
+    <body>
+        <main>
+            <div class="content">
+                <div class="app">
+                    <aside class="left-aside">
+                        <figure class="logo--block">
+                            <img
+                                src="./asset/img/Group 63.svg"
+                                alt=""
+                                class="logo--block-asideleft"
+                            />
+                        </figure>
+                        <input
+                            type="text"
+                            class="menu--search"
+                            placeholder="Seaching..."
+                        />
+                        <div class="br--searching"></div>
+                        <nav class="nav--list">
+                            <a href="#!" class="nav--profile">
+                                <img
+                                    src="./asset/img/user-icon.svg"
+                                    class="img--icon--aside"
+                                    alt=""
+                                />
+                                <p class="nav--desc">Profile</p>
+                            </a>
+                            <a href="#!" class="nav--profile">
+                                <img
+                                    src="./asset/img/dashboard-icon.svg"
+                                    class="img--icon--aside"
+                                    alt=""
+                                />
+                                <p class="nav--desc">Dashboard</p>
+                            </a>
+                            <a href="#!" class="nav--profile">
+                                <img
+                                    src="./asset/img/favorite-icon.svg"
+                                    class="img--icon--aside"
+                                    alt=""
+                                />
+                                <p class="nav--desc">Favorite</p>
+                            </a>
+                            <a href="#!" class="nav--profile">
+                                <img
+                                    src="./asset/img/chat-icon.svg"
+                                    class="img--icon--aside"
+                                    alt=""
+                                />
+                                <p class="nav--desc">Live Chat</p>
+                            </a>
+                            <a href="#!" class="nav--profile">
+                                <img
+                                    src="./asset/img/friend-icon.svg"
+                                    class="img--icon--aside"
+                                    alt=""
+                                />
+                                <p class="nav--desc">Friends</p>
+                            </a>
+                            <a href="#!" class="nav--profile">
+                                <img
+                                    src="./asset/img/mobile-icon.svg"
+                                    class="img--icon--aside"
+                                    alt=""
+                                />
+                                <p class="nav--desc">Mobile App</p>
+                            </a>
+
+                            <a href="#!" class="help--action">
+                                <h3 class="help--title">Help</h3>
+                            </a>
+                            <div class="nav--list--br br--searching"></div>
+                            <a href="#!" class="nav--profile">
+                                <img
+                                    src="./asset/img/settings-icon.svg"
+                                    class="img--icon--aside"
+                                    alt=""
+                                />
+                                <p class="nav--desc">Settings</p>
+                            </a>
+                            <a href="#!" class="nav--profile">
+                                <img
+                                    src="./asset/img/FAQs-icon.svg"
+                                    class="img--icon--aside"
+                                    alt=""
+                                />
+                                <p class="nav--desc">FAQs</p>
+                            </a>
+                        </nav>
+
+                        <a href="#!">
+                            <p class="version--app">version 1.1.1</p></a
+                        >
+                    </aside>
+                    <section class="main--app">
+                        <form action=" " class="form--find">
+                            <button type="submit" class="submit--find">
+                                <img
+                                    src="./asset/img/find-icon.svg"
+                                    alt=""
+                                    class="img--find--submit"
+                                />
+                            </button>
+                            <input
+                                type="text"
+                                class="find--input"
+                                placeholder=" Search Music, Artist, Genre"
+                            />
+                        </form>
+
+                        <div class="title--style">
+                            <img
+                                src="./asset/img/music-icon.svg"
+                                alt=""
+                                class="icon--song"
+                            />
+                            <h3 class="title--type">Discover Genre</h3>
+                        </div>
+                        <article class="track--list"></article>
+                        <div class="row top--music">
+                            <div class="top--music--left">
+                                <img
+                                    src="./asset/img/headphone--icon.svg"
+                                    class="headphone--icon"
+                                    alt=""
+                                />
+                                <h2 class="top--music--title">Top Music</h2>
+                            </div>
+                            <div class="top--music--right">
+                                <a href="#!" class="show--more--btn"
+                                    >Show More >>
+                                    <div class="fake--decoration"></div>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="list--song--main"></div>
+                    </section>
+                    <aside class="right--aside">
+                        <div class="right--content">
+                            <div class="row user--account">
+                                <img
+                                    src="./asset/img/user--default.jpg"
+                                    alt=""
+                                    class="img--user"
+                                />
+                                <div class="information--user">
+                                    <a href="#!"
+                                        ><h3 class="name--user">Login</h3></a
+                                    >
+                                    <a href="#!" class="action--account"
+                                        >Sign up</a
+                                    >
+                                </div>
+                                <form action="">
+                                    <label for="checked">
+                                        <i
+                                            class="fa-regular fa-bell bell--icon"
+                                            style="color: #fff"
+                                        ></i
+                                    ></label>
+                                    <input
+                                        class="bell--btn"
+                                        type="checkbox"
+                                        id="checked"
+                                        name="checked"
+                                    />
+                                </form>
+                            </div>
+                            <div class="top--artist--title">Top Artist</div>
+                            <ul class="list--top-artist">
+                                <li class="artist--item">
+                                    <div
+                                        class="row user--account artist--block"
+                                    >
+                                        <a href="#!">
+                                            <img
+                                                src="./asset/img/ngot--logo.jpg"
+                                                alt=""
+                                                class="img--user img--artist"
+                                            />
+                                        </a>
+                                        <div
+                                            class="information--user information--artist"
+                                        >
+                                            <a href="#!"
+                                                ><h3
+                                                    class="name--user artist--name"
+                                                >
+                                                    Ngọt
+                                                </h3></a
+                                            >
+                                            <a href="#!" class="action--account"
+                                                >57 songs</a
+                                            >
+                                        </div>
+                                        <form action="">
+                                            <label for="checked--option">
+                                                <!-- <img
+                                                    src="./asset/img/more-option.svg"
+                                                    alt=""
+                                                    class="icon--more--setting"
+                                                /> -->
+                                                <i
+                                                    class="fa-solid fa-ellipsis-vertical icon--more--setting"
+                                                ></i>
+                                            </label>
+                                            <input
+                                                class="bell--btn"
+                                                type="checkbox"
+                                                id="checked--option"
+                                                name="checked--option"
+                                            />
+                                        </form>
+                                    </div>
+                                </li>
+                                <li class="artist--item">
+                                    <div
+                                        class="row user--account artist--block"
+                                    >
+                                        <a href="#!">
+                                            <img
+                                                src="./asset/img/thắng--logo.jpg"
+                                                alt=""
+                                                class="img--user img--artist"
+                                            />
+                                        </a>
+                                        <div
+                                            class="information--user information--artist"
+                                        >
+                                            <a href="#!"
+                                                ><h3
+                                                    class="name--user artist--name"
+                                                >
+                                                    Thăngs
+                                                </h3></a
+                                            >
+                                            <a href="#!" class="action--account"
+                                                >34 songs</a
+                                            >
+                                        </div>
+                                        <form action="">
+                                            <label for="checked--option-1">
+                                                <!-- <img
+                                                    src="./asset/img/more-option.svg"
+                                                    alt=""
+                                                    class="icon--more--setting"
+                                                /> -->
+                                                <i
+                                                    class="fa-solid fa-ellipsis-vertical icon--more--setting"
+                                                ></i>
+                                            </label>
+                                            <input
+                                                class="bell--btn"
+                                                type="checkbox"
+                                                id="checked--option-1"
+                                                name="checked--option-1"
+                                            />
+                                        </form>
+                                    </div>
+                                </li>
+                                <li class="artist--item">
+                                    <div
+                                        class="row user--account artist--block"
+                                    >
+                                        <a href="">
+                                            <img
+                                                src="./asset/img/ngot--logo.jpg"
+                                                alt=""
+                                                class="img--user img--artist"
+                                            />
+                                        </a>
+                                        <div
+                                            class="information--user information--artist"
+                                        >
+                                            <a href="#!"
+                                                ><h3
+                                                    class="name--user artist--name"
+                                                >
+                                                    Ngọt
+                                                </h3></a
+                                            >
+                                            <a href="#!" class="action--account"
+                                                >57 songs</a
+                                            >
+                                        </div>
+                                        <form action="">
+                                            <label for="checked--option">
+                                                <!-- <img
+                                                    src="./asset/img/more-option.svg"
+                                                    alt=""
+                                                    class="icon--more--setting"
+                                                /> -->
+                                                <i
+                                                    class="fa-solid fa-ellipsis-vertical icon--more--setting"
+                                                ></i>
+                                            </label>
+                                            <input
+                                                class="bell--btn"
+                                                type="checkbox"
+                                                id="checked--option"
+                                                name="checked--option"
+                                            />
+                                        </form>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </main>
+        <div class="play--station">
+            <div class="row play--station--block">
+                <figure class="play--station--block-img">
+                    <img
+                        class="cd--thumb"
+                        src="./asset/img/thumbsong--img1.jpg"
+                        alt=""
+                    />
+                </figure>
+                <div class="info--song-play">
+                    <h3 class="name--song--play">Memories</h3>
+                    <p class="article--name--song-play">Maroon 5</p>
+                </div>
+                <div class="action--station row">
+                    <div class="previousSong">
+                        <i class="fa-solid fa-backward bw--1"></i>
+                    </div>
+                    <div class="back15s">
+                        <i class="fa-solid fa-backward-step bt--1"></i>
+                    </div>
+
+                    <div class="action--button">
+                        <i class="fa-solid fa-circle-play"></i>
+                    </div>
+                    <div class="next15sec">
+                        <i
+                            class="fa-solid fa-backward-step bt--1"
+                            style="rotate: 180deg"
+                        ></i>
+                    </div>
+                    <div class="nextSong">
+                        <i
+                            class="fa-solid fa-backward pt--1"
+                            style="rotate: 180deg"
+                        ></i>
+                    </div>
+                </div>
+                <div class="process--play">
+                    <form action="" class="process--play--form">
+                        <input
+                            type="range"
+                            min="0"
+                            step="1"
+                            value="0"
+                            class="process-range--music"
+                            max="100"
+                        />
+                        <div class="process--play-set"></div>
+                    </form>
+                    <audio src="" id="audio"></audio>
+                    <div class="process--play-time row">
+                        <span class="play-time-start">00.00</span>
+                        <span class="play-time-end">00.00</span>
+                    </div>
+                </div>
+                <div class="process--volume">
+                    <label for="volume-range" class="volume--icon"
+                        ><i class="fa fa-volume-up vl--1" aria-hidden="true"></i
+                    ></label>
+                    <form action="" class="volume--value">
+                        <input
+                            type="range"
+                            min="0"
+                            step="1"
+                            value="100"
+                            id="volume-range"
+                            class="volume-range"
+                        />
+                        <div class="volume--range--set"></div>
+                    </form>
+                </div>
+                <div class="random--btn">
+                    <i class="fa fa-random rd--1" aria-hidden="true"></i>
+                </div>
+                <div class="repeat">
+                    <i class="fa fa-repeat rp--1" aria-hidden="true"></i>
+                </div>
+                <div class="favorite--song">
+                    <i class="fa fa-heart ht--1" aria-hidden="true"></i>
+                </div>
+                <a
+                    href="https://facebook.com/thiennhan0205"
+                    class="sharing--song"
+                    style="display: block"
+                    target="_blank"
+                >
+                    <i class="fa fa-share-alt sh--1" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <script src="./asset/js/main.js" type="module"></script>
+    </body>
+</html>
